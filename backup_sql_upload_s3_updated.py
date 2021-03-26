@@ -1,7 +1,6 @@
 ### SOURCES:
 ### https://docs.python.org/3/library/shutil.html#module-shutil
 ### http://boto.cloudhackers.com/en/latest/#
-### backup_sql_upload_s3.py
 ### https://python-forum.io/Thread-Menu-selection-using-function
 
 import os
@@ -22,9 +21,9 @@ today = str(datetime.date.today())
 now = datetime.datetime.now()
 
 ### connection info:
-aws_secret_access_key = 'Secret Access-Key'
-aws_access_key = 'Access Key'
-aws_bucket_name = 'Bucket Name'
+aws_secret_access_key = 'access_key'
+aws_access_key = 'access_key'
+aws_bucket_name = 'bucket name'
 aws_folder_name = '/tmp/'
 
 ### MENU
